@@ -1,0 +1,89 @@
+#login {
+    background-color: gray;
+    color:#3a73c9; 
+    background-color:lightgray;
+    border: transparent;
+    font-weight: bold;
+    margin-top: 20px;
+    position:relative;
+    right:10vh;
+    
+}
+
+#banner{
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 60vh;
+    background-size:cover;
+}
+
+#searchbox{
+    padding: 15px;
+    opacity: 0.95;
+    background-color: #02122C;
+    height: 25vh;
+    width: 130vh;
+    border-radius: 10px;
+    
+}
+
+#titlebox{
+    color:whitesmoke;
+    margin-top: 10vh;
+    margin-bottom: 5px;
+    width: 130vh;
+    height:10vh;
+    
+}
+
+#headtext{
+    font-size:6vh;
+    color:cornsilk;
+    font-weight:bolder;
+    text-shadow: 2px 2px #02122C;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
+.flight-type{
+    color:white;
+    font-size: large;
+    margin:15px;
+    left:50px;
+}
+
+#radio-flight{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.label{
+    padding-left: 15px;
+    font-size: small;
+    color: white;
+}
+
+
+ul{
+    border: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.list{
+    position: absolute;
+    width:100%;
+    background-color: rgb(227, 227, 227);
+    border-radius: 0 0 5px 5px;
+}
+
+.list-items{
+    padding :5px 15px;
+}
+
+.list-items:hover{
+    background-color: white;
+}
