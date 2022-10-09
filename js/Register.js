@@ -59,7 +59,7 @@ $(document).ready(function() {
         if(correct == true){
             alert("Successfully registered!\n name: "+$("#name").val()+"\nemail: "+$("#email").val()+"\npassword: "+$("#password").val());
 
-            //location.href = 'index.html';
+            location.href = 'login.html';
         }
         
     });
