@@ -30,8 +30,10 @@ $(document).ready(function() {
 
             if(checkstaff($("#name").val())){
                 location.href = 'staff.html';
+                alert("Welcome Staff "+$("#name").val());
             } else{
                 location.href = 'user.html';
+                alert("Welcome user "+$("#name").val());
             }
             
         } else{
